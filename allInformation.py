@@ -5,7 +5,7 @@ newDict={
     'age':[20,23,26,20,40,45,50,60,50]
 }
 
-df=pd.DataFrame(newDict)
+# df=pd.DataFrame(newDict)
 
 # print(df) #show all list
 
@@ -13,4 +13,38 @@ df=pd.DataFrame(newDict)
 # print(df.tail(3))#buttom thake dakhaba ata tao tumi ja value daba sathai dakha ba...
 
 #print (df.describe())#numarical value analysiecs korba..
-df.to_csv('biplab.csv')
+# df.to_csv('biplab.csv') #convert csv file
+
+# biplabFile=pd.read_csv("biplab.csv")
+# df=pd.DataFrame(biplabFile)
+
+
+#print(biplabFile['name'][0])#coulum diya file exces korche and index number diya amer dakta parchie..
+
+
+
+# value change korete parbo...
+# biplabFile['age'][0]=23
+# print(biplabFile)
+
+
+
+
+# create a new csv file
+# biplabFile.to_csv('biplab2.csv')
+
+
+biplabNewFile=pd.read_csv('biplab2.csv')
+#change head name
+biplabNewFile.index=['first','second','thrid','forth','five','six','seven','eight','ning']
+print(biplabNewFile)
+
+
+
+
+
+
+
+
+
+
