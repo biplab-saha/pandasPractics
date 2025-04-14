@@ -9,6 +9,8 @@ df=pd.DataFrame(newDict)
 
 # print(df) #show all list
 
-print(df.head(2))# top thake dakhabe braket vator ja value daba satuku e daba..
-print(df.tail(3))#buttom thake dakhaba ata tao tumi ja value daba sathai dakha ba...
+# print(df.head(2))# top thake dakhabe braket vator ja value daba satuku e daba..
+# print(df.tail(3))#buttom thake dakhaba ata tao tumi ja value daba sathai dakha ba...
 
+#print (df.describe())#numarical value analysiecs korba..
+df.to_csv('biplab.csv')
