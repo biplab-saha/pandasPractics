@@ -1,5 +1,0 @@
-how to convert csv file
-df.to_csv('file name')
-
-index show na koror jonno excel file maa
-index=false

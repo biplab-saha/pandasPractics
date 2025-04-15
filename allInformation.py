@@ -38,6 +38,11 @@ biplabNewFile=pd.read_csv('biplab2.csv')
 #change head name
 biplabNewFile.index=['first','second','thrid','forth','five','six','seven','eight','ning']
 print(biplabNewFile)
+df=pd.DataFrame(biplabNewFile)
+df.to_csv("newBiplabCsvFile.csv")
+
+
+
 
 
 
