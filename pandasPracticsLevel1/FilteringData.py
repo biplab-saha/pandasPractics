@@ -11,10 +11,18 @@ df=pd.DataFrame(data)
 # print(df.isnull().sum())
 
 #  find the number  row and column
-print(df.shape)
+# print(df.shape)
 
-# 
+# find the total seles 
+value=df['Total Sales'].sum()
+print(value)
 
+
+# find the total reviewnew 
+totalReviewnew=df.groupby('Category')['Total Sales'].sum()
+print(totalReviewnew)
+
+# print(data)
 
 
 
