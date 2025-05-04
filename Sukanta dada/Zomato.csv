@@ -1,0 +1,6 @@
+,Restaurant_ID,Name,Location,Cuisine,Rating,Avg_Cost_For_Two,Delivery
+0,101,The Spice House,Delhi,North India,4.3,800,Yes
+1,102,Sushi Central,Mumbai,Japanese,4.6,1500,No
+2,103,Pizza Fiesta,Bangalore,ltalian,4.0,600,Yes
+3,104,Curry Kingdom,Hyderabad,South India,3.8,700,Yes
+4,105,Burder Barn,Pune,American,4.1,500,No
